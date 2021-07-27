@@ -1,0 +1,162 @@
+/*=====GOOGLE FONTS=====*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/*=====CUSTOM CSS=====*/
+:root {
+    --heading-font: 'Bebas Neue',
+        cursive;
+    --primary-font: 'Roboto',
+        sans-serif;
+}
+
+/*=====COMMON CSS=====*/
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/*=====NAVBAR PART=====*/
+.menu_part {
+    background: #FFF9F4;
+}
+
+.menu-bar img {
+    width: 291px;
+    height: 39px;
+}
+
+.menu_part ul li {
+    margin-left: 20px;
+}
+
+.menu_part ul li a {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/*=====BANNER PART=====*/
+.banner_content {
+    margin-top: 80px;
+}
+
+.banner_content h2 {
+    font-family: var(--heading-font);
+    font-size: 80px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    color: #FA804C;
+}
+
+.banner_content h2>span {
+    color: #363958;
+}
+
+.banner_content p {
+    max-width: 368px;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #3E3E3E;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.banner_btn {
+    padding: 12px 30px;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    color: #ffffff;
+    font-family: var(--primary-font);
+    border-radius: 10px;
+}
+
+/*=====MAIN PART=====*/
+.cmn_heading>h2 {
+    font-family: var(--heading-font);
+    font-size: 48px;
+    font-weight: 700;
+    color: #363958;
+    font-style: normal;
+}
+
+.casual_shoe img {
+    background: #F1F1F1;
+    border-radius: 20px;
+}
+
+.card_edit {
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.card_content {
+    padding: 1rem 0;
+}
+
+.card_content h5 {
+    font-family: var(--primary-font);
+    font-style: 24px;
+    font-weight: 700;
+    font-style: normal;
+    color: #363958;
+}
+
+.card_content p {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: #3E3E3E;
+}
+
+.card_pricing h2 {
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0em;
+    color: #FA804C;
+}
+
+.crd-footer {
+    background: transparent;
+    border-top: 0;
+}
+
+/*=====FEATURE PART=====*/
+.feature_part {
+    margin-top: 100px;
+}
+
+.feature_left {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+.feature_left h4 {
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.feature_left p {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    margin: 0;
+}
