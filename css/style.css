@@ -160,3 +160,41 @@ ol {
     letter-spacing: 0em;
     margin: 0;
 }
+
+
+/*=====MEDIA QUERIES=====*/
+@media screen and (max-width:576px) {
+
+    /*=====Features Part=====*/
+
+    .feature_left h4,
+    .feature_left p {
+        padding: 0 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:767px) {
+    /*=====Features Part=====*/
+
+    .feature_left h4,
+    .feature_left p {
+        padding: 0 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    /*=====Feature Part=====*/
+    .feature_left h4,
+    .feature_left p {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    /*=====Main Part=====*/
+    .main .banner_btn {
+        padding: 8px 11px;
+    }
+}
